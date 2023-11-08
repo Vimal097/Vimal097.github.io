@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sruthi Natyalaya</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" id="closeIcon" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#classes">Courses</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" id="menuBars" onclick="showMenu()"></i>
+        </nav>
+    <div class="text-box">
+        <h1>Sruthi Natyalaya</h1>
+        <p>An institution for Bharathanatyam specializing in the Melattur style.</p>
+        <a href="" class="hero-btn">Visit Us To Know More</a>
+    </div>
+    </section>
+
+<!-- -- Courses -- -->
+<section class="course">
+    <h1>Courses we offer</h1>
+    <p>Course 1</p>
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>Intermdiate course offered</p>
+        </div>
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>Intermdiate course offered</p>
+        </div>
+        <div class="course-col">
+            <h3>Post Graduation</h3>
+            <p>Intermdiate course offered</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- course end -->
+
+<!-- campus -->
+<section class="campus">
+    <h1>Our Branches</h1>
+    <p>We are at velachery</p>
+    <div class="row">
+        <div class="campus-col">
+            <img src="images/london.png">
+            <div class="layer">
+                <h3>Velachery</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/newyork.png">
+            <div class="layer">
+                <h3>Palikaranai</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/washington.png">
+            <div class="layer">
+                <h3>Guindy</h3>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- campus end -->
+
+<!-- Facilities -->
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p1>we have industry standard facilities for the students to learn</p1>
+    <div class="row"> 
+        <div class="facilities-col">
+            <img src="images/library.png">
+            <title>Library</title>
+            <p>We have world class library</p>
+        </div>
+    </div>
+    <div class="row"> 
+        <div class="facilities-col">
+            <img src="images/basketball.png">
+            <title>Largest Playgroud</title>
+            <p>We have world class library</p>
+        </div>
+    </div>
+    <div class="row"> 
+        <div class="facilities-col">
+            <img src="images/cafeteria.png">
+            <title>Food</title>
+            <p>We have world class library</p>
+        </div>
+    </div>
+</section>
+<!-- Facilities End -->
+
+<!-- Testimonials -->
+<section class="testimonials">
+    <h1>What do our student says</h1>
+    <p>I had very good exeprience learning</p>
+    <div class="row">
+        <div class="testimonial-col">
+            <img src="images/user1.jpg">
+            <div>
+                <p>
+                    it was a plecent experience
+                </p>
+                <h3>Erica</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+        </div>
+        <div class="testimonial-col">
+            <img src="images/user2.jpg">
+            <div>
+                <p>
+                    it was a plecent experience
+                </p>
+                <h3>christene</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Testimonials End -->
+
+<!-- Call to enquire -->
+<section class="cta">
+    <h1>We offer online course also</h1>
+    <a href="" class="hero-btn">Contact Us</a>
+</section>
+<!-- call to enquire end -->
+
+<!-- Footer -->
+<section class="footer">
+    <h4>About us</h4>
+    <p>We are here to help you dance</p>
+    <div class=icons>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-whatsapp"></i>
+        <i class="fa fa-facebook"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i>by hokage</p>
+</section>
+<!-- Footer end -->
+
+    <script>
+        var navLinks = document.getElementById('navLinks');
+        function showMenu(){
+            navLinks.style.right = "0"
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+        }
+    </script>
+</body>
+</html>
